@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-        <title>Se Connecter</title>
+        <title>Se Connecter pour DSI DAYS</title>
         <style type="text/css">
             <%@include file="style.css"%>
 		</style>
