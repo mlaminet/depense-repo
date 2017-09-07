@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <servlet>
+        <servlet-name>List</servlet-name>
+        <servlet-class>com.webapps.List</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Connection</servlet-name>
+        <servlet-class>com.webapps.Connection</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Formulaire</servlet-name>
+        <servlet-class>com.webapps.Formulaire</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>com.webapps.Add</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Supprimer</servlet-name>
+        <servlet-class>com.webapps.Supprimer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Modifier</servlet-name>
+        <servlet-class>com.webapps.Modifier</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Order</servlet-name>
+        <servlet-class>com.webapps.Order</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Index</servlet-name>
+        <servlet-class>com.webapps.Index</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>All</servlet-name>
+        <servlet-class>com.webapps.Index</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Desc</servlet-name>
+        <servlet-class>com.webapps.Desc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>List</servlet-name>
+        <url-pattern>/list</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Formulaire</servlet-name>
+        <url-pattern>/</url-pattern>
+        <url-pattern>/home</url-pattern>
+        <url-pattern>/formulaire</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Connection</servlet-name>
+        <url-pattern>/connection.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/add.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Supprimer</servlet-name>
+        <url-pattern>/supprimer.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Modifier</servlet-name>
+        <url-pattern>/modifier.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Order</servlet-name>
+        <url-pattern>/order.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>All</servlet-name>
+        <url-pattern>/all</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Desc</servlet-name>
+        <url-pattern>/desc.do</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

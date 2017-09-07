@@ -1,0 +1,105 @@
+/*
+Theme Name: Tutos
+Theme URI: http://sarathai.kelio.org
+Description: Theme Tutos
+Version:1.0
+Author: Sarathai
+*/
+
+/*Defaut*/
+* {margin:0; padding:0;}
+body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5 {border:0;}
+
+body {font:0.8em/1.5 Arial,Helvetica,Verdana,sans-serif; background-color:#575656; color:#f2eee7; position:relative;}
+
+/*Utils*/
+a {text-decoration:none; color:#8fc40a;}
+a:hover, a:focus {text-decoration:underline;}
+a:active {text-decoration:none !important;}
+
+h1,h2,h3,h4 {font-weight:bold;}
+h1, h1 a {color:#8fc40a; text-decoration:none;}
+h2, h2 a{color:#b5c58b; text-decoration:none;}
+h3, h3 a,h4, h4 a {color:#a9a9a9; text-decoration:none;}
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h1 a:focus,h2 a:focus,h3 a:focus,h4 a:focus {text-decoration:underline;}
+h1 {font-size:1.6em;}
+h2 {font-size:1.4em;}
+h3 {font-size:1.2em;}
+h4 {font-size:1.1em;}
+
+p {text-align:justify; margin:8px 0;}
+ul {margin-left:25px;}
+
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+img.f-right {float:right; margin-left:10px;}
+img.f-left {float:left; margin-right:10px;}
+
+.t-left {text-align:left !important;}
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+
+.va-top {vertical-align:top;}
+.va-middle {vertical-align:middle;}
+.va-bottom {vertical-align:bottom;}
+
+.no-margins {margin:0;}
+.noscreen {display:none;}
+.relative {position:relative;}
+.absolute {position:absolute;}
+.clear {clear:both; margin:0; padding:0;}
+
+.bigger {font-size:1.15em;}
+.smaller {font-size:0.85em;}
+
+.italic {font-style:italic;}
+.bold {font-weight:bold;}
+
+.center {margin: 0 auto !important;}
+/*Header*/
+#header {background: url("header.png") repeat-x top left; height:100px;}
+#header #contenu {width:960px; margin:0 auto;}
+
+/*Main*/
+#main {width:1100px; margin:20px auto;}
+
+/*Table*/
+table {border-collapse: collapse; width:90%; margin:10px; text-align: left;font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;font-size:12px;}
+thead td {border-bottom:2px solid #8fc40a;color:#BFE024;font-size:14px;font-weight:normal;padding:10px 30px;}
+thead td a {color:#BFE024;font-size:14px;font-weight:normal;}
+tbody td {border-bottom:1px solid darkolivegreen;color:#a9a9a9;padding:6px 30px;}
+table td.first {padding-left: 10px;}
+table td.last {padding-right: 0px;}
+tbody tr:hover td {color: #EEF7D4 !important;}
+tbody tr:hover a {color: #EEF7D4 !important;}
+table a {color:#a9a9a9;}
+table a:hover {color: #EEF7D4 !important;}
+
+/*Contenu*/
+#session {margin-bottom: 20px;}
+#session ul li {margin:0 5px; list-style: none;}
+
+#list{float:left; width:70%;}
+#actions{float:left; width:30%;}
+#actions h3 span {font-size: 1.0em; color:#8fc40a; }
+#actions .colS div span {font-size: 1.1em; color:#8fc40a; font-weight: bold; }
+#actions .colS div  {font-size: 1.1em;  font-weight: bold; }
+#actions .colS div.in  {margin-left:10px;}
+
+/*Formulaire*/
+fieldset div {clear:both;margin:0.3em 0;}
+
+form {width:100%;padding: 10px 0px;}
+form#connect {width:380px}
+
+label {float:left;margin-right:1em;text-align:right;width:10em;}
+legend {color:#BFE024;font-size:1.2em;padding:5px 5px;}
+
+input {-moz-border-radius:0.4em 0.4em 0.4em 0.4em;-webkit-border-radius:0.4em 0.4em 0.4em 0.4em;-border-radius:0.4em 0.4em 0.4em 0.4em;background:none repeat scroll 0 0 #FAFAFA;border:1px solid #DDDDDD;font:bold 0.95em arial,sans-serif;padding:0.15em;width:10em;}
+input:hover, input:focus {border-color:#a9a9a9;}
+fieldset {border:1px solid #a9a9a9;padding:0 1em 0.5em;}
+
+#submit, #reset {cursor:pointer !important;display:block;float:right;height:20px;margin:10px 7px;width:69px;}
+
+#reset {color:chocolate;}
