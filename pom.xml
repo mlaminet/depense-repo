@@ -72,6 +72,21 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+<!--        <repository>
+            <url>http://download.eclipse.org/rt/eclipselink/maven.repo/</url>
+            <id>eclipselink</id>
+            <layout>default</layout>
+            <name>Repository for library EclipseLink (JPA 2.0)</name>
+        </repository>-->
+        <repository>
+            <url>http://10.172.101.225:8081/nexus/content/groups/public/</url>
+            <id>oml</id>
+            <layout>default</layout>
+            <name>oml repo</name>
+        </repository>
+
+    </repositories>
 <distributionManagement>
                 <!-- Publish versioned releases here -->
                 <repository>
